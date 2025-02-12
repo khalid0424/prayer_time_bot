@@ -15,7 +15,7 @@ from datetime import datetime
 import logging
 
 
-TOKEN = "7817341523:AAFgMhThFwSZ0YJncnXvNcpY_brD8IiQqXU"
+TOKEN = ""
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 
 conn = sqlite3.connect('prayer_bot.db')
